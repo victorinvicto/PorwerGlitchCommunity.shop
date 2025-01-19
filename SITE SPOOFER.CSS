@@ -1,0 +1,142 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Fundo cinza escuro */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: none;
+}
+
+
+.h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.logopwg {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ol {
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.IMG5, .IMG6, .IMG7 {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 20px auto;
+}
+
+.aviso6 {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#passo10, #passo12 {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+@keyframes highlight {
+    0% { background-color: #646161; }
+    100% { background-color: transparent; }
+}
+
+.highlight {
+    animation: highlight 3.5s ease-in-out;
+}
+
+.passoapassospoofer{
+    margin-top: 15px;
+}
+
+
+/* styles.css */
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display: block;}
